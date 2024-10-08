@@ -1,5 +1,32 @@
 @media (max-width: 34em) {
+  html {
+    font-size: 62.5%;
+  }
+
+  /* general */
+  .header,
+  .footer {
+    padding: 2rem 2rem;
+    height: 8rem;
+  }
+
+  .hero-section,
+  .info-section,
+  .testimonial-section,
+  .cta-section {
+    padding: 2rem 2rem;
+  }
+
   .hero-section {
     flex-direction: column-reverse;
+  }
+
+  .hero-section__text {
+    text-align: center;
+  }
+
+  .collections-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
