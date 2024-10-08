@@ -107,6 +107,7 @@ ol {
 .header,
 .footer {
   padding: 2rem 26rem;
+  height: 8rem;
 }
 
 .hero-section,
@@ -120,4 +121,17 @@ p,
 a {
   font-size: 1.8rem;
   line-height: 1.4;
+}
+
+.btn-link:link,
+.btn-link:visited {
+  display: inline-block;
+  padding: 1rem 4rem;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.btn-link:hover,
+.btn-link:active {
+  transform: scale(1.05);
 }
