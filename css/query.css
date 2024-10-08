@@ -29,4 +29,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .cta__container {
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
