@@ -1,0 +1,156 @@
+/* /////////////////////// */
+/* common style */
+/* /////////////////////// */
+.header,
+.main__nav-list,
+.hero-section,
+.info-section,
+.collections-container,
+.collection,
+.testimonial-section,
+.testimonial-container {
+  display: flex;
+}
+
+.header,
+.hero-section,
+.footer {
+  background-color: #1f2937;
+}
+
+.header,
+.hero-section p,
+.hero-section a,
+.footer p {
+  color: #e5e7eb;
+}
+
+/* /////////////////////// */
+/* header */
+/* /////////////////////// */
+.header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 5rem;
+  width: 5rem;
+}
+
+.main__nav-list {
+  gap: 4rem;
+}
+
+/* /////////////////////// */
+/* Hero Section */
+/* /////////////////////// */
+.hero-section {
+  gap: 2rem;
+}
+
+.hero-section__container h1 {
+  line-height: 1.4;
+  color: #f9faf8;
+  letter-spacing: 0.3rem;
+  font-weight: 900;
+  font-size: 4.8rem;
+  padding-bottom: 1rem;
+}
+
+.hero-section__container p {
+  margin-bottom: 2rem;
+}
+
+.hero-section__img {
+  height: 30rem;
+  width: 100rem;
+}
+
+.hero__btn-link:link,
+.hero__btn-link:visited {
+  display: inline-block;
+  background-color: #3882f6;
+  padding: 1rem 4rem;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.hero__btn-link:hover,
+.hero__btn-link:active {
+  color: #1f2937;
+  background-color: #f9faf8;
+  transform: scale(1.05);
+}
+
+/* /////////////////////// */
+/* info Section */
+/* /////////////////////// */
+
+.info-section {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* secondary header */
+.info-section h2 {
+  font-size: 3.6rem;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 8rem;
+}
+
+.collections-container {
+  gap: 4rem;
+}
+
+.collection {
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  width: 20rem;
+}
+.info-section__img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 10px;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+/* /////////////////////// */
+/* Testimonial Section */
+/* /////////////////////// */
+
+.testimonial-section {
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+
+.testimonial-container {
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 93rem;
+}
+
+.testimonial-container p {
+  font-size: 3.6rem;
+  font-style: italic;
+}
+
+.testimonial-quote {
+  color: #1f2937;
+  font-size: 1.8rem;
+  text-align: end;
+}
