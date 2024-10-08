@@ -6,11 +6,28 @@
   /* general */
 
   .header svg {
-    font-size: 5%;
+    width: 20rem;
   }
 
   .main__nav-list {
     gap: 1rem;
+  }
+
+  .hero-section__text h1 {
+    line-height: 1.2;
+  }
+
+  .hero-section__text p {
+    margin-bottom: 1rem;
+  }
+
+  .info-section h2 {
+    margin-bottom: 2.5rem;
+  }
+
+  .testimonial-container p {
+    font-size: 3rem;
+    text-align: center;
   }
 
   .header,
