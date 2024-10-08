@@ -1,9 +1,18 @@
 @media (max-width: 34em) {
   html {
-    font-size: 62.5%;
+    font-size: 50.5%;
   }
 
   /* general */
+
+  .header svg {
+    font-size: 5%;
+  }
+
+  .main__nav-list {
+    gap: 1rem;
+  }
+
   .header,
   .footer {
     padding: 2rem 2rem;
